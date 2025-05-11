@@ -331,7 +331,7 @@ with col2:
 
 # Sidebar for info
 with st.sidebar:
-    st.image("https://www.cancer.gov/sites/g/files/xnrzdm211/files/styles/cgov_featured/public/cgov_contextual_image/2021-11/lung-cancer-article-image.jpg?h=231b74f2&itok=lzZw4j5E", caption="Lung health matters", use_column_width=True)
+    st.image("https://i0.wp.com/www.denvaxindia.com/blog/wp-content/uploads/2024/04/Lung-Cancer-Treatment-1.png?fit=1107%2C632&ssl=1", caption="Lung health matters", use_column_width=True)
     
     st.header("About")
     st.info("""
