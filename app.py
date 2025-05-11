@@ -208,7 +208,7 @@ if st.button("Predict Lung Cancer Risk"):
         }
         
         # Make API request to FastAPI backend
-        api_url = "http://localhost:8000/predict"  # Adjust if needed
+        api_url = "https://lung-cancer-n74s.onrender.com"  # Adjust if needed
         
         # For development, you can use a mock response
         # Remove this block and uncomment the requests block for real API calls
