@@ -300,11 +300,12 @@ st.markdown("""
 
 # Header with animation
 st.markdown("""
-<div style="background-color: #4B6CB7;">
-    <h1 style="color: white; margin-bottom: 0;">Lung Cancer Risk Assessment Tool</h1>
-    <p style="color: white; font-size: 1.2rem;">Evaluate your risk factors and get personalized recommendations</p>
+<div style="background-color: #4B6CB7; padding: 20px; border-radius: 10px;">
+    <h1 style="color: white; margin-bottom: 5px;">Lung Cancer Risk Assessment Tool</h1>
+    <p style="color: white; font-size: 1.2rem; margin-top: 0;">Evaluate your risk factors and get personalized recommendations</p>
 </div>
 """, unsafe_allow_html=True)
+
 # Load animations
 lung_animation = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_5njp3vgg.json")
 doctor_animation = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_5tl1xxnz.json")
