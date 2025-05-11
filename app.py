@@ -300,28 +300,10 @@ st.markdown("""
 
 # Header with animation
 st.markdown("""
-<style>
-    .header-container {
-        background: linear-gradient(90deg, #1E3B8A, #4169E1);
-        padding: 30px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        display: block;  /* Ensures it's always visible */
-    }
-    .main-title {
-        color: white;
-        font-size: 2.5rem;
-        font-weight: bold;
-        margin-bottom: 5px;
-        display: block;  /* Ensures it's always visible */
-    }
-    .subtitle {
-        color: #f0f0f0;
-        font-size: 1.2rem;
-        display: block;  /* Ensures it's always visible */
-    }
-</style>
+<div style="background-color: #4B6CB7;">
+    <h1 style="color: white; margin-bottom: 0;">Lung Cancer Risk Assessment Tool</h1>
+    <p style="color: white; font-size: 1.2rem;">Evaluate your risk factors and get personalized recommendations</p>
+</div>
 """, unsafe_allow_html=True)
 
 # Apply the header with explicit HTML
