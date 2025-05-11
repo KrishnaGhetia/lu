@@ -300,8 +300,8 @@ st.markdown("""
 
 # Header with animation
 st.markdown("""
-<div class="animated-gradient">
-    <h1 style="color: red; margin-bottom: 0;">Lung Cancer Risk Assessment Tool</h1>
+<div>
+    <h1 style="color: white; margin-bottom: 0;">Lung Cancer Risk Assessment Tool</h1>
     <p style="color: white; font-size: 1.2rem;">Evaluate your risk factors and get personalized recommendations</p>
 </div>
 """, unsafe_allow_html=True)
